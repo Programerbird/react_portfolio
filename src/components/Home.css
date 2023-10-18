@@ -1,0 +1,11 @@
+.home__wrapper{
+    display: flex;
+    padding-top: 120px;
+    padding-left: 50px;
+   
+}
+
+.wrapper{
+   color: aliceblue;
+   font-size: 35px;
+}
