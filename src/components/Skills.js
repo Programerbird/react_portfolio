@@ -8,7 +8,12 @@ import { colors } from '@mui/material';
 import python from '../icons/python.ico'
 import { BiLogoPython,BiLogoReact,BiLogoHtml5,BiLogoCss3 } from 'react-icons/bi';
 import { TbBrandCpp } from 'react-icons/tb';
-import {JavaScriptIcon,Python} from '../svgs/Javascript'
+import py from '../Pictures/pythonlogo.png'
+import java from '../Pictures/javascriptlogo.png'
+import c from '../Pictures/c.png'
+import html from '../Pictures/html.png'
+import css from '../Pictures/css.png'
+import vscode from '../Pictures/vscode.png'
 
 
 const Skills = () => {
@@ -17,30 +22,23 @@ const Skills = () => {
     <div><h1 className='sk_name' >Skills</h1></div>
       <div className='sk_wrapper' >
         <div className='icons' >
-          <Python></Python>
-        <JavaScriptIcon 
-          style={{
-            height:"100px",
-            width: "100px"
-          }}
-        />
-        <Box  component="span" sx={{ p: 1, border: '1px dashed grey' }}>
-        <Button style={{color:"yellow"}} ></Button>
+        <Box  component="span" sx={{ p: 1, border: '0.1px dashed grey' }}>
+        <Button style={{color:"yellow"}} ><img src={java} alt='javalogo'/></Button>
         </Box>
         <Box  component="span" sx={{ p: 1, border: '0.1px dashed grey' }}>
-        <Button style={{color:""}} ><BiLogoPython/></Button>
+        <Button style={{color:"cyan"}} ><img  src={py} alt='pythonimage'/></Button>
         </Box>
         <Box  component="span" sx={{ p: 1, border: '0.1px dashed grey' }}>
-        <Button style={{color:"white"}} ><TbBrandCpp/></Button>
+        <Button style={{color:"Midnight blue"}} ><img src={c} alt='c++logo'/></Button>
         </Box>
         <Box  component="span" sx={{ p: 1, border: '0.1px dashed grey' }}>
-        <Button style={{color:"Cyan"}} ><BiLogoReact/></Button>
+        <Button style={{color:"orange"}} ><img src={html} alt='htmllogo'/></Button>
         </Box>
         <Box  component="span" sx={{ p: 1, border: '0.1px dashed grey' }}>
-        <Button style={{color:"orange"}} ><BiLogoHtml5/></Button>
+        <Button style={{color:"Royal blue"}} ><img src={css} alt='csslogo'/></Button>
         </Box>
         <Box  component="span" sx={{ p: 1, border: '0.1px dashed grey' }}>
-        <Button style={{color:"babyblue"}} ><BiLogoCss3/></Button>
+        <Button style={{color:"purple"}} ><img src={vscode} alt='vscodelogo'/></Button>
         </Box>
         </div>
       </div>

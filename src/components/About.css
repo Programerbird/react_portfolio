@@ -11,6 +11,7 @@
 }
 
 .info{
+   background-color: rgba(0, 0, 0, 0.349);
    display: flex;
    text-align: center;
    justify-content: center;
