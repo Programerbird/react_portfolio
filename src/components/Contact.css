@@ -1,3 +1,47 @@
 .con{
     color: aliceblue;
 }
+
+#contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.263);
+    padding-top: 100px;
+    
+}
+
+.contactmain{
+    color: rgb(0, 253, 135);
+    
+}
+
+.namet{
+    background-color: rgba(223, 243, 239, 0.89);
+    display: flex;
+    gap: 10px;
+    padding-bottom: 20px;
+}
+
+.emailt{
+    display: flex;
+    gap: 15px;
+    padding-bottom: 30px;
+}
+.massaget{
+    background-color: aliceblue;
+    display: flex;
+    gap: 3px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+
+.buttont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}

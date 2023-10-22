@@ -4,6 +4,9 @@
    align-items: center;
    justify-content: center;
    padding-top: 200px;
+   background-color: rgba(0, 0, 0, 0.249);
+   color: rgb(0, 253, 135);
+   
 }
 
 .info{
