@@ -9,13 +9,13 @@
     text-align: center;
     flex-direction: row;
     color: aliceblue;
-    background-color: rgba(0, 0, 0, 0.263);
     padding-top: 100px;
     
 }
 
 .contactmain{
     color: rgb(0, 253, 135);
+    font-size: 30px;
     
 }
 

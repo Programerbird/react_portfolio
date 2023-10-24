@@ -1,0 +1,8 @@
+.titlepr{
+    color: rgb(0, 253, 135);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 100px;
+    font-size: 30px;
+}
